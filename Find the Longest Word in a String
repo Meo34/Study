@@ -1,0 +1,10 @@
+function findLongestWordLength(str) {
+  let s = str.split(' ');
+  let n = 0;
+  for ( let i = 0; i < s.length; i++){
+    if (s[i].length > x){
+      n = s[i].length;
+    } 
+  }
+  return n;
+}
